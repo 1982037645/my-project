@@ -1,1 +1,4 @@
-sée.git is easy to learÐ™n and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, Perforce, and ClearCase with features like cheap local convenient staging areas, and multiple workflows.
+Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, Perforce, and ClearCase with features like cheap local convenient staging areas, and multiple workflows.
+
+.
+
