@@ -1,1 +1,1 @@
-Èe.git is easy to lear–ôn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, Perforce, and ClearCase with features like cheap local convenient staging areas, and multiple workflows.
+sÈe.git is easy to lear–ôn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, Perforce, and ClearCase with features like cheap local convenient staging areas, and multiple workflows.
