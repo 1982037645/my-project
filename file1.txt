@@ -1,4 +1,6 @@
 Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, Perforce, and ClearCase with features like cheap local convenient staging areas, and multiple workflows.
 
-.
+
+Git allows and encourages you to have multiple local branches that can be entirely independent of each other. The creation, merging, and deletion of those lines of development takes seconds.
+
 
