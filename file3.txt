@@ -1,1 +1,5 @@
-13) With Git was built to work on the Linux kernel, meaning that it has had to effectively handle repositories from day one. Git is written in C, reducing the overhead of runtimes associated with higher-level languages. Speed and performance has been a primary design goal of Git from the start.
+1) Git encourages you to have multiple local branches 
+that can be entirely independent of each other. 
+
+The creation, merging, and deletion of those lines of 
+development takes seconds.
