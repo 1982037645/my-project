@@ -1,1 +1,5 @@
-Gitis a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+1) Git encourages you to have multiple local branches 
+that can be entirely independent of each other. 
+
+The creation, merging, and deletion of those lines of 
+development takes seconds.
