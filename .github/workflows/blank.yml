@@ -1,32 +1,24 @@
-name: Print workflow
-on: workflow_dispatch
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
 
 jobs:
-
-  print_hello:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Print hello
-        run: echo "Hello world!"
+      - uses: actions/checkout@v4
 
-  checkout:
-    needs: print_hello
-    runs-on: ubuntu-latest
-    steps:
-    - name: checkout_repo
-      uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo Hello, world!
 
-  print_full_technical_info:
-        needs: print_hello 
-        runs-on: ubuntu-latest 
-        steps:
-        - name: Print full_tech_info
-          run: sudo lshw
-
-  print_short_technical_info:
-    needs: print_full_technical_info 
-    runs-on: ubuntu-latest 
-    steps: 
-      - name: Print short_tech_info 
-        run: sudo lshw -short
-
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
